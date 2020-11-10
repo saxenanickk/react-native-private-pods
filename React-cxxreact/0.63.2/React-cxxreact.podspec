@@ -24,10 +24,10 @@ Pod::Spec.new do |s|
   s.name                   = "React-cxxreact"
   s.version                = version
   s.summary                = "-"  # TODO
-  s.homepage               = "http://facebook.github.io/react-native/"
+  s.homepage               = "https://reactnative.dev/"
   s.license                = package["license"]
   s.author                 = "Facebook, Inc. and its affiliates"
-  s.platforms              = { :ios => "9.0", :tvos => "9.2" }
+  s.platforms              = { :ios => "10.0", :tvos => "10.0" }
   s.source                 = source
   s.source_files           = "ReactCommon/cxxreact/*.{cpp,h}"
   s.exclude_files          = "ReactCommon/cxxreact/SampleCxxModule.*"
