@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   s.platforms              = { :ios => "10.0", :tvos => "10.0" }
   s.compiler_flags         = folly_compiler_flags + ' -Wno-nullability-completeness'
   s.source                 = source
-  s.source_files           = "Libraries/Vibration/*.{m}"
+  s.source_files           = "Libraries/Vibration/*.{m,mm}"
   s.preserve_paths         = "package.json", "LICENSE", "LICENSE-docs"
   s.header_dir             = "RCTVibration"
   s.pod_target_xcconfig    = {
